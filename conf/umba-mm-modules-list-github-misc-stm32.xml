@@ -1,0 +1,181 @@
+<umba-mm-modules-list>
+
+    <repository-info type="git">
+        <name>github</name>
+        <description>Misc GitHub repos</description>
+        <base-url>https://github.com/</base-url>
+    </repository-info>
+
+    <!--module junction="foreign"-->
+    <module junction="inline">
+    <name>robots</name>
+    <description>Various Cortex-M3 projects</description>
+    <url>robots/STM32.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>roboterclubaachen_xpcc</name>
+    <description>The C++ microcontroller framework xpcc for AVR and Cortex-M</description>
+    <url>roboterclubaachen/xpcc.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>majerle_keil</name>
+    <description>MaJerle - Keil projects and libraries for STM32F4xx devices</description>
+    <url>MaJerle/stm32f429.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>majerle_easy_gui</name>
+    <description>MaJerle/EasyGUI - Easy GUI for microcontrollers</description>
+    <url>MaJerle/EasyGUI.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>arduino_stm</name>
+    <description>Arduino for STM32 - Generic implementation of Arduino for STM32 boards - https://danieleff.github.io/STM32GENERIC/</description>
+    <url>danieleff/STM32GENERIC.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>stm32duino</name>
+    <description>stm32duino/Arduino_Core_STM32 - STM32 core support for Arduino</description>
+    <url>stm32duino/Arduino_Core_STM32.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>redbear_arduino</name>
+    <description>redbear/STM32-Arduino - Use Arduino IDE to develop STM32 MCU (e.g. RedBear Duo) firmware.</description>
+    <url>redbear/STM32-Arduino.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>contiki_sensor</name>
+    <description>STM32-Contiki_Sensor_Smart_Home</description>
+    <url>zthxxx/STM32-Contiki_Sensor_Smart_Home.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>istarc_stm32_samples</name>
+    <description>istarc/stm32 - STM32F4 Discovery Board Examples - https://istarc.wordpress.com/ </description>
+    <url>istarc/stm32.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>bosch_ros</name>
+    <description>bosch-ros-pkg - A lightweight implementation of the ROS middleware on STM32F4Discovery for interfacing embedded and general-purpose software.</description>
+    <url>bosch-ros-pkg/stm32.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>meegoo_tsui</name>
+    <description>meegoo-tsui/stm32</description>
+    <url>meegoo-tsui/stm32.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>libusb_stm32</name>
+    <description>Lightweight USB device Stack for STM32 microcontrollers</description>
+    <url>dmitrystu/libusb_stm32.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>umbrela_smart_android_stm32_dfu</name>
+    <description>UmbrelaSmart/android-stm32-dfu-programmer - </description>
+    <url>UmbrelaSmart/android-stm32-dfu-programmer.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>juma_io_stm32</name>
+    <description>A STM32_Platform to to facilitate development work for BLE(BlueNRG-MS) applications.</description>
+    <url>JUMA-IO/STM32_Platform.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>armink_free_modbus</name>
+    <description>armink / FreeModbus_Slave -Master -RTT-STM32</description>
+    <url>armink/FreeModbus_Slave-Master-RTT-STM32.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>gk969_speech_recognition</name>
+    <description>gk969/stm32-speech-recognition</description>
+    <url>gk969/stm32-speech-recognition.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>maker_labme_marlin</name>
+    <description>MakerLabMe/Marlin_STM32 - 3d printer Marlin firmware for 32 bit arm cpu STM32F10X</description>
+    <url>MakerLabMe/Marlin_STM32.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>meekdai_stm32_grbl</name>
+    <description>Meekdai/STM32-GRBL - STM32 CNC Controller</description>
+    <url>Meekdai/STM32-GRBL.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>rurume_bootloader</name>
+    <description>rurume/STM32-Bootloader - This project is an example of IAP Bootloader with UART. Now is using in stm32f107vct6 chip and Keil MDK-Arm uvision5.</description>
+    <url>rurume/STM32-Bootloader.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>stm_sdr</name>
+    <description>STM32-SDR/STM32-SDR - Software Defined Radio running on STM32 processor.</description>
+    <url>STM32-SDR/STM32-SDR.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>andysworkshop_stm32plus</name>
+    <description>andysworkshop/stm32plus - The C++ library for the STM32 F0, F100, F103, F107 and F4 microcontrollers </description>
+    <url>andysworkshop/stm32plus.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module type="git" junction="foreign">
+    <name>akospasztor_bootloader</name>
+    <description>akospasztor/stm32-bootloader - Customizable Bootloader for STM32 microcontrollers. This example demonstrates how to perform in-application-programming of a firmware located on an external SD card with FAT32 file system.</description>
+    <url>akospasztor/stm32-bootloader.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module type="git" junction="foreign">
+    <name>dccharacter_servo_controller</name>
+    <description>dccharacter/STM32_Servo_Controller - STM32-based servo/CNC/3D-printer controller</description>
+    <url>dccharacter/STM32_Servo_Controller.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <!--
+    <module type="git" junction="foreign">
+    <name></name>
+    <description></description>
+    <url></url>
+    <option name="Branch">master</option>
+    </module>
+    -->
+
+
+</umba-mm-modules-list>

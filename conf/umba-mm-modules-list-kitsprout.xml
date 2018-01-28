@@ -1,0 +1,96 @@
+<umba-mm-modules-list>
+
+    <repository-info type="git">
+        <name>kitsprout</name>
+        <description>KitSprout GitHub repositories</description>
+        <base-url>https://github.com/KitSprout/</base-url>
+    </repository-info>
+
+    <module junction="foreign">
+    <name>smart_imu</name>
+    <description>KitSprout/SmartIMU - Inertial Sensor Development Kit - STM32F412R, MPU9250, LPS22HB</description>
+    <url>SmartIMU.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>jlink</name>
+    <description>KitSprout/JLink_ARM-OB - ARM Cortex-M JLink</description>
+    <url>JLink_ARM-OB.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>micromultimeter</name>
+    <description>KitSprout/MicroMultimeter，Use STM32F303CB</description>
+    <url>MicroMultimeter.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>mung_bean_sprout</name>
+    <description>KitSprout/MungBeanSprout - ARM Cortex-M0 STM32F030F Development Kit</description>
+    <url>MungBeanSprout.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>kdwm1000</name>
+    <description>KitSprout/KDWM1000 - Local Positioning System Development Kit, use STM32F411C + MPU9250 + LPS25HB + DWM1000</description>
+    <url>KDWM1000.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>uwb_adapter</name>
+    <description>KitSprout/UWB-Adapter - Local Positioning System Development Kit, use STM32F411C, DWM1000</description>
+    <url>UWB-Adapter.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>copter_flight_controller</name>
+    <description>KitSprout/QCopterFlightControl</description>
+    <url>QCopterFlightControl.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>copter_machine_vision</name>
+    <description>KitSprout/QCopterMachineVision</description>
+    <url>QCopterMachineVision.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>copter_nano</name>
+    <description>KitSprout/QCopterNano</description>
+    <url>QCopterNano.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>copter_remote_control</name>
+    <description>KitSprout/QCopterRemoteControl</description>
+    <url>QCopterRemoteControl.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <module junction="foreign">
+    <name>imu_cube</name>
+    <description>KitSprout/IMUCube - BLE, IMU and LED Development Kit，Use nRF51822 + MPU6500 + WS2812B</description>
+    <url>IMUCube.git</url>
+    <option name="Branch">master</option>
+    </module>
+
+    <!--
+    <module junction="foreign">
+    <name></name>
+    <description></description>
+    <url></url>
+    <option name="Branch">master</option>
+    </module>
+    -->
+
+
+</umba-mm-modules-list>
