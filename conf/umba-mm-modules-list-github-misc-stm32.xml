@@ -2,7 +2,7 @@
 
     <repository-info type="git">
         <name>github</name>
-        <description>Misc GitHub repos</description>
+        <description>Misc GitHub repos with sources for STM32</description>
         <base-url>https://github.com/</base-url>
     </repository-info>
 
