@@ -1,7 +1,7 @@
 <umba-mm-modules-list>
 
     <repository-info type="git">
-        <name>github</name>
+        <name>github_misc_stm32</name>
         <description>Misc GitHub repos with sources for STM32</description>
         <base-url>https://github.com/</base-url>
     </repository-info>
