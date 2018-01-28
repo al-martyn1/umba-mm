@@ -12,7 +12,7 @@
     <name>robots</name>
     <description>Various Cortex-M3 projects</description>
     <url>robots/STM32.git</url>
-    <subst-module-info-url>robots-module-info.xml</subst-module-info-url>
+    <subst-module-info-url>robots.xml</subst-module-info-url>
     <option name="Branch">master</option>
     </module>
 
