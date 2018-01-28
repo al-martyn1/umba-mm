@@ -4,7 +4,7 @@
         <name>github_misc_stm32</name>
         <description>Misc GitHub repos with sources for STM32</description>
         <base-url>https://github.com/</base-url>
-        <subst-base-url>https://raw.githubusercontent.com/al-martyn1/umba-mm/master/conf/subst/github-misc-stm32-</subst-base-url>
+        <subst-base-url>https://raw.githubusercontent.com/al-martyn1/umba-mm/master/conf/subst/github_misc_stm32_</subst-base-url>
     </repository-info>
 
     <!--module junction="foreign"-->
