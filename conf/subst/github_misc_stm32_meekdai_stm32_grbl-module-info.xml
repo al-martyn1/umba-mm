@@ -1,0 +1,30 @@
+<umba-mm-module-info>
+    <file>
+      <file-path>user/delay.c</file-path>
+    </file>
+    <file>
+      <file-path>user/delay.h</file-path>
+    </file>
+    <file>
+      <file-path>user/eeprom.c</file-path>
+    </file>
+    <file>
+      <file-path>user/eeprom.h</file-path>
+    </file>
+    <file>
+      <file-path>user/gpio.c</file-path>
+    </file>
+    <file>
+      <file-path>user/gpio.h</file-path>
+    </file>
+    <file>
+      <file-path>user/usart.c</file-path>
+    </file>
+    <file>
+      <file-path>user/usart.h</file-path>
+    </file>
+    <!--
+    <file>
+      <file-path></file-path>
+    </file>
+</umba-mm-module-info>

@@ -1,0 +1,16 @@
+<umba-mm-module-info>
+    <file>
+      <file-path>udp_logger/log.c</file-path>
+    </file>
+    <file>
+      <file-path>src/apps/nodes/ultrasonic_sensor/ultrasonic_sensor.cpp</file-path>
+    </file>
+    <file>
+      <file-path>src/apps/nodes/ultrasonic_sensor/ultrasonic_sensor.h</file-path>
+    </file>
+    <!--
+    <file>
+      <file-path></file-path>
+    </file>
+    -->
+</umba-mm-module-info>

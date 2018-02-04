@@ -1,0 +1,24 @@
+<umba-mm-module-info>
+    <file>
+      <file-path>demo/iap_uart/src/common.c</file-path>
+    </file>
+    <file>
+      <file-path>demo/iap_uart/src/download.c</file-path>
+    </file>
+    <file>
+      <file-path>demo/iap_uart/src/main.c</file-path>
+    </file>
+    <file>
+      <file-path>demo/iap_uart/src/stm32f10x_it.c</file-path>
+    </file>
+    <file>
+      <file-path>demo/iap_uart/src/upload.c</file-path>
+    </file>
+    <file>
+      <file-path>demo/iap_uart/src/ymodem.c</file-path>
+    </file>
+    <!--
+    <file>
+      <file-path></file-path>
+    </file>
+</umba-mm-module-info>

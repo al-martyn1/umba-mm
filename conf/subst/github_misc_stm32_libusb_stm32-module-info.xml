@@ -1,0 +1,33 @@
+<umba-mm-module-info>
+    <file>
+      <file-path>src/memmap.inc</file-path>
+    </file>
+    <file>
+      <file-path>src/usbd_core.c</file-path>
+    </file>
+    <file>
+      <file-path>src/usbd_stm32f103_devfs.c</file-path>
+    </file>
+    <file>
+      <file-path>src/usbd_stm32f103_devfs_asm.S</file-path>
+    </file>
+    <file>
+      <file-path>src/usbd_stm32l052_devfs.c</file-path>
+    </file>
+    <file>
+      <file-path>src/usbd_stm32l052_devfs_asm.S</file-path>
+    </file>
+    <file>
+      <file-path>src/usbd_stm32l100_devfs.c</file-path>
+    </file>
+    <file>
+      <file-path>src/usbd_stm32l100_devfs_asm.S</file-path>
+    </file>
+    <file>
+      <file-path>src/usbd_stm32l476_otgfs.c</file-path>
+    </file>
+    <!--
+    <file>
+      <file-path></file-path>
+    </file>
+</umba-mm-module-info>

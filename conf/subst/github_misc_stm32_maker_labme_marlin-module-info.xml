@@ -1,0 +1,21 @@
+<umba-mm-module-info>
+    <file>
+      <file-path>Marlin/BlinkM.cpp</file-path>
+    </file>
+    <file>
+      <file-path>Marlin/BlinkM.h</file-path>
+    </file>
+    <file>
+      <file-path>Marlin/MarlinSerial.cpp</file-path>
+    </file>
+    <file>
+      <file-path>Marlin/MarlinSerial.h</file-path>
+    </file>
+    <file>
+      <file-path>Marlin/Marlin_main.cpp</file-path>
+    </file>
+    <!--
+    <file>
+      <file-path></file-path>
+    </file>
+</umba-mm-module-info>
