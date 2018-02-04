@@ -78,6 +78,7 @@
     <url>bosch-ros-pkg/stm32.git</url>
     <subst-module-info-url>bosch_ros-module-info.xml</subst-module-info-url>
     <option name="Branch">master</option>
+    <dependencies>meegoo_tsui,libusb_stm32</dependencies>
     </module>
 
     <module junction="foreign">
@@ -86,6 +87,7 @@
     <url>meegoo-tsui/stm32.git</url>
     <subst-module-info-url>meegoo_tsui-module-info.xml</subst-module-info-url>
     <option name="Branch">master</option>
+    <dependencies>maker_labme_marlin,meekdai_stm32_grbl</dependencies>
     </module>
 
     <module junction="foreign">
