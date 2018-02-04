@@ -12,7 +12,7 @@
     <name>robots</name>
     <description>Various Cortex-M3 projects</description>
     <url>robots/STM32.git</url>
-    <subst-module-info-url>robots.xml</subst-module-info-url>
+    <subst-module-info-url>robots-module-info.xml</subst-module-info-url>
     <option name="Branch">master</option>
     </module>
 
@@ -76,6 +76,7 @@
     <name>bosch_ros</name>
     <description>bosch-ros-pkg - A lightweight implementation of the ROS middleware on STM32F4Discovery for interfacing embedded and general-purpose software.</description>
     <url>bosch-ros-pkg/stm32.git</url>
+    <subst-module-info-url>bosch_ros-module-info.xml</subst-module-info-url>
     <option name="Branch">master</option>
     </module>
 
@@ -83,6 +84,7 @@
     <name>meegoo_tsui</name>
     <description>meegoo-tsui/stm32</description>
     <url>meegoo-tsui/stm32.git</url>
+    <subst-module-info-url>meegoo_tsui-module-info.xml</subst-module-info-url>
     <option name="Branch">master</option>
     </module>
 
@@ -90,6 +92,7 @@
     <name>libusb_stm32</name>
     <description>Lightweight USB device Stack for STM32 microcontrollers</description>
     <url>dmitrystu/libusb_stm32.git</url>
+    <subst-module-info-url>libusb_stm32-module-info.xml</subst-module-info-url>
     <option name="Branch">master</option>
     </module>
 
@@ -125,6 +128,7 @@
     <name>maker_labme_marlin</name>
     <description>MakerLabMe/Marlin_STM32 - 3d printer Marlin firmware for 32 bit arm cpu STM32F10X</description>
     <url>MakerLabMe/Marlin_STM32.git</url>
+    <subst-module-info-url>maker_labme_marlin-module-info.xml</subst-module-info-url>
     <option name="Branch">master</option>
     </module>
 
@@ -132,6 +136,7 @@
     <name>meekdai_stm32_grbl</name>
     <description>Meekdai/STM32-GRBL - STM32 CNC Controller</description>
     <url>Meekdai/STM32-GRBL.git</url>
+    <subst-module-info-url>meekdai_stm32_grbl-module-info.xml</subst-module-info-url>
     <option name="Branch">master</option>
     </module>
 
