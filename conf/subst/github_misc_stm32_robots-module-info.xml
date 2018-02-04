@@ -1,4 +1,12 @@
 <umba-mm-module-info>
-    <file>blink_rtc/rtc.c</file>
-    <file>blink_rtc/startup_stm32f10x.c</file>
+    <file>
+      <file-path>blink_rtc/rtc.c</file-path>
+    </file>
+    <file>
+      <file-path>blink_rtc/startup_stm32f10x.c</file-path>
+    </file>
+    <!--
+    <file>
+      <file-path></file-path>
+    </file>
 </umba-mm-module-info>
