@@ -1,4 +1,13 @@
 <umba-mm-module-info>
+    <actions>
+        <action name="after-checkout">
+        start iexplore https://yandex.ru/search/?text=$(UmbaMmModuleName)%20after-checkout
+        </action>
+        <action name="before-remove">
+        start iexplore https://yandex.ru/search/?text=$(UmbaMmModuleName)%20before-remove
+        </action>
+    </actions>
+
     <file>
       <file-path>udp_logger/log.c</file-path>
     </file>
