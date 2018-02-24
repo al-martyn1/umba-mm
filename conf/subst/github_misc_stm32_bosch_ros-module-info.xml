@@ -1,10 +1,10 @@
 <umba-mm-module-info>
     <actions>
         <action name="after-checkout">
-        start iexplore https://yandex.ru/search/?text=$(UmbaMmModuleName)%20after-checkout
+        open https://yandex.ru/search/?text=$(UmbaMmModuleName)%20after-checkout
         </action>
         <action name="before-remove">
-        start iexplore https://yandex.ru/search/?text=$(UmbaMmModuleName)%20before-remove
+        open https://yandex.ru/search/?text=$(UmbaMmModuleName)%20before-remove
         </action>
     </actions>
 

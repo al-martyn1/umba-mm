@@ -81,7 +81,7 @@
     <dependencies>meegoo_tsui,libusb_stm32</dependencies>
     </module>
 
-    <module junction="foreign">
+    <module junction="inline">
     <name>meegoo_tsui</name>
     <description>meegoo-tsui/stm32</description>
     <url>meegoo-tsui/stm32.git</url>
