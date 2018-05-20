@@ -1,8 +1,8 @@
 <umba-mm-module-info>
-    <file>
+    <file match-var="Toolchain" match-to="keil/*" match-mask="true">
       <file-path>user/delay.c</file-path>
     </file>
-    <file>
+    <file match-var="Toolchain" match-to="keil/*" match-mask="true">
       <file-path>user/delay.h</file-path>
     </file>
     <file>

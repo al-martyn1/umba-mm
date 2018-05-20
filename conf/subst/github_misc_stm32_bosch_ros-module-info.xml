@@ -8,10 +8,10 @@
         </action>
     </actions>
 
-    <file>
+    <file match-var="Toolchain" match-to="keil/armclang">
       <file-path>udp_logger/log.c</file-path>
     </file>
-    <file>
+    <file match-var="Toolchain" match-to="eclipse/gcc-arm" match-mask="true">
       <file-path>src/apps/nodes/ultrasonic_sensor/ultrasonic_sensor.cpp</file-path>
     </file>
     <file>
