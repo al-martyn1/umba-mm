@@ -1,14 +1,14 @@
 <umba-mm-module-info>
-    <file match-var="Toolchain" match-to="keil/*" match-mask="true">
+    <file match-var="Toolchain" match-to="keil/*">
       <file-path>user/delay.c</file-path>
     </file>
-    <file match-var="Toolchain" match-to="keil/*" match-mask="true">
+    <file match-var="Toolchain" match-to="keil/*">
       <file-path>user/delay.h</file-path>
     </file>
-    <file>
+    <file match-var="Toolchain" match-to="msvc/msc*" >
       <file-path>user/eeprom.c</file-path>
     </file>
-    <file>
+    <file match-var="Toolchain" match-to="msvc/msc*" >
       <file-path>user/eeprom.h</file-path>
     </file>
     <file>
