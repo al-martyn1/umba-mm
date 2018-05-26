@@ -1,31 +1,55 @@
 <umba-mm-module-info>
-    <file match-var="Toolchain" match-to="keil/*">
+
+    <toolchain-options scope="project"> <!-- add match conditions -->
+      <options type="cpp_defines">DEF1,DEF2</options> <!-- comma separated list of options -->
+    </toolchain-options>
+
+    <!-- scope="module" - module level, default value -->
+    <toolchain-options scope="module"> <!-- add match conditions -->
+    </toolchain-options>
+
+    <file match-var="Toolchain" match-to="keil-v*/*">
+
+      <!-- file level - scope attribute ignored -->
+      <toolchain-options>
+      </toolchain-options>
+
       <file-path>user/delay.c</file-path>
+
     </file>
-    <file match-var="Toolchain" match-to="keil/*">
+
+    <file match-var="Toolchain" match-to="keil-v*/*">
       <file-path>user/delay.h</file-path>
     </file>
-    <file match-var="Toolchain" match-to="msvc/msc*" >
+
+    <file match-var="Toolchain" match-to="msvs-v*/msc_v*" >
       <file-path>user/eeprom.c</file-path>
     </file>
-    <file match-var="Toolchain" match-to="msvc/msc*" >
+
+    <file match-var="Toolchain" match-to="msvs-v*/msc_v*" >
       <file-path>user/eeprom.h</file-path>
     </file>
+
     <file>
       <file-path>user/gpio.c</file-path>
     </file>
+
     <file>
       <file-path>user/gpio.h</file-path>
     </file>
+
     <file>
       <file-path>user/usart.c</file-path>
     </file>
+
     <file>
       <file-path>user/usart.h</file-path>
     </file>
+
     <!--
     <file>
       <file-path></file-path>
     </file>
     -->
+
 </umba-mm-module-info>
