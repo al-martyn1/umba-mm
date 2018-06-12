@@ -13,9 +13,9 @@
       <options-list type="cpp_includes" msubst="1" ispath="1">.\umba\$(ProjectType)</options-list>
     </options>
 
-    <options match-var="ProjectType" match-to="keil4,keil5">
+    <options match-var="ProjectType" match-to="keil-v4,keil-v5">
       <options-list type="cpp_includes">./umba</options-list>
-      <options-list type="cpp_defines">DEF1=keil4,DEF2=keil5</options-list>
+      <options-list type="cpp_defines">DEF1=keil-v4,DEF2=keil-v5</options-list>
       <options-list type="cpp_options">--cpp11</options-list>
     </options>
 
