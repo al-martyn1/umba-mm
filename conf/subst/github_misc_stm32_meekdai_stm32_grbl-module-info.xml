@@ -1,21 +1,46 @@
 <umba-mm-module-info>
 
-    <toolchain-options scope="project"> <!-- add match conditions -->
-      <options type="cpp_defines">DEF1,DEF2</options> <!-- comma separated list of options -->
-    </toolchain-options>
+    <actions>
+        <action name="after-checkout">
+        open https://yandex.ru/search/?text=$(UmbaMmModuleName)%20after-checkout
+        </action>
+        <action name="before-remove">
+        open https://yandex.ru/search/?text=$(UmbaMmModuleName)%20before-remove
+        </action>
+    </actions>
 
-    <!-- scope="module" - module level, default value -->
-    <toolchain-options scope="module"> <!-- add match conditions -->
-    </toolchain-options>
+    <options>
+      <options-list type="cpp_includes" msubst="1" ispath="1">.\umba\$(ProjectType)</options-list>
+    </options>
+
+    <options match-var="ProjectType" match-to="keil4,keil5">
+      <options-list type="cpp_includes">./umba</options-list>
+      <options-list type="cpp_defines">DEF1=keil4,DEF2=keil5</options-list>
+      <options-list type="cpp_options">--cpp11</options-list>
+    </options>
+
+    <options scope="module" match-var="ProjectType" match-to="vcproj">
+      <options-list type="cpp_includes">./umba</options-list>
+      <options-list type="cpp_defines">DEF1=msvc</options-list>
+      <options-list type="cpp_options">/std:c++14</options-list>
+    </options>
 
     <file match-var="Toolchain" match-to="keil-v*/*">
 
       <!-- file level - scope attribute ignored -->
-      <toolchain-options>
-      </toolchain-options>
+      <options>
+      </options>
 
       <file-path>user/delay.c</file-path>
 
+    </file>
+
+    <file msubst="1">
+      <file-path>user/$(Toolchain)/feature_N1_impl.h</file-path>
+    </file>
+
+    <file msubst="1">
+      <file-path>user/$(ProjectType)/feature_N2_impl.h</file-path>
     </file>
 
     <file match-var="Toolchain" match-to="keil-v*/*">
