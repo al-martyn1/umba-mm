@@ -1,5 +1,6 @@
 <umba-mm-module-info>
 
+    <!--
     <actions>
         <action name="after-checkout">
         open https://yandex.ru/search/?text=$(UmbaMmModuleName)%20after-checkout
@@ -8,6 +9,7 @@
         open https://yandex.ru/search/?text=$(UmbaMmModuleName)%20before-remove
         </action>
     </actions>
+    -->
 
     <options>
       <options-list type="cpp_includes" msubst="1" ispath="1">.\umba\$(ProjectType)</options-list>
